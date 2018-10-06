@@ -1,6 +1,10 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python3.7
 # -*- coding: utf-8 -*-
-from baike_spider import url_manager, html_downloader, html_outputer, html_parser
+
+from baike_spider import url_manager
+from baike_spider import html_downloader
+from baike_spider import html_parser
+from baike_spider import html_outputer
 
 class  SpiderMain(object):
   def __init__(self):
